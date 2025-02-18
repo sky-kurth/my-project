@@ -2,12 +2,15 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
+@import './style-tokens.css';
+
 /* COLORS */
 :root {
   /*overlay */
   --color-overlay: #ededed;
 
-  /* background */
+  /* background
   --color-background: #fff;
   --color-on-background-menu: #f4f4f4;
   --color-background-2: #f5f5f5;
@@ -21,8 +24,9 @@
   --color-on-background-link-hover: #004b90;
   --color-on-background-table-header-dark: #444444;
   --color-on-background-iq-insights: #edf5ff;
+  */
 
-  /* primary */
+  /* primary 
   --color-primary: #0266c2;
   --color-primary-hover: #004b90;
   --color-primary-active: #003b73;
@@ -31,7 +35,9 @@
   --color-on-primary-decoration: #fff;
   --color-on-primary-link: #fff;
   --color-on-primary-link-hover: #fff;
+  */
 
+  /* secondary 
   --color-secondary: #fc9c0c;
   --color-secondary-hover: #f4753b;
   --color-secondary-active: #f4753b;
@@ -40,26 +46,28 @@
   --color-on-secondary-decoration: #000;
   --color-on-secondary-link: #000;
   --color-on-secondary-link-hover: #000;
+  */
 
-  /* surface */
+  /* surface 
   --color-surface: #f7faff;
-  /* --color-surface-hover: #; */
   --color-surface-active: #9ac2e7;
   --color-on-surface: #262626;
   --color-on-surface-alternate: #737373;
   --color-on-surface-decoration: #0266c2;
   --color-on-surface-link: #0266c2;
   --color-on-surface-link-hover: #0266c2;
+*/
 
-  /* information */
+  /* information 
   --color-information: #d9e8f6;
   --color-on-information: #262626;
   --color-on-information-alternate: #737373;
   --color-on-information-decoration: #0266c2;
   --color-on-information-link: #0266c2;
   --color-on-information-link-hover: #0266c2;
+*/
 
-  /* success */
+  /* success 
   --color-success: #bde7a6;
   --color-on-success: #262626;
   --color-on-success-alternate: #737373;
@@ -67,11 +75,10 @@
   --color-on-success-link: #262626;
   --color-on-success-link-hover: #262626;
   --color-on-success-alter-decoration: #4dac5f;
+*/
 
-  /* warning */
+  /* warning 
   --color-warning: #fbe4a8;
-  /* --color-warning-hover: #; */
-  /* --color-warning-active: #; */
   --color-on-warning: #262626;
   --color-on-warning-alternate: #737373;
   --color-on-warning-decoration: #fcab30;
@@ -81,26 +88,27 @@
   --color-on-warning-pane: #fff6e7;
   --color-on-warning-alter-decoration: #cb7e0a;
   --color-on-warning-secondary-decoration: #bea103;
+*/
 
-  /* error */
+  /* error 
   --color-error: #f2a4a2;
   --color-on-error: #262626;
   --color-on-error-alternate: #737373;
   --color-on-error-decoration: #c62828;
   --color-on-error-link: #262626;
   --color-on-error-link-hover: #262626;
+*/
 
-  /* notice */
+  /* notice
   --color-notice: #e5e5e5;
-  /* --color-notice-hover: #; */
-  /* --color-notice-active: #; */
   --color-on-notice: #262626;
   --color-on-notice-alternate: #737373;
   --color-on-notice-decoration: #262626;
   --color-on-notice-link: #262626;
   --color-on-notice-link-hover: #262626;
+ */
 
-  /* danger */
+  /* danger 
   --color-danger: #b00020;
   --color-danger-hover: #970007;
   --color-danger-active: #7d0000;
@@ -112,24 +120,29 @@
   --color-on-danger-border: #ea2328;
   --color-on-danger-pane: #fde9ea;
   --color-on-danger-alter-decoration: #ea2328;
+  */
 
-  /* inactive */
+  /* inactive
   --color-inactive: #e5e5e5;
   --color-on-inactive: #4c4c4c;
   --color-on-inactive-light: #f5f5f5;
+ */
 
-  /* shadow */
+  /* shadow 
   --color-shadow: rgba(0, 0, 0, 0.15);
   --color-shadow-variant: rgba(155, 200, 243, 0.5);
+*/
 
-  /* hover */
+  /* hover 
   --color-hover-button: #d0d5e6;
   --color-focussed-btn: #bfc7e1;
+*/
 
-  /*disabled-text*/
+  /*disabled-text
   --color-disabled-text: #bfbfbf;
+*/
 
-  /* chart */
+  /* chart 
   --color-chart-1: #0266c2;
   --color-chart-2: #4dac5f;
   --color-chart-3: #fc9c0c;
@@ -141,16 +154,18 @@
   --color-chart-9: #fed79e;
   --color-chart-10: #6aadbd;
   --color-chart-11: #936abd;
+*/
 
-  /* brand */
+  /* brand 
   --color-brand-primary: #ed2226;
   --color-brand-secondary: #000000;
   --color-brand-tertiary: #ffffff;
   --color-appbar-bg: #202124;
   --color-global-search-bg: #1d1d1d;
   --color-brand-bg: #fff0db;
+*/
 
-  /* workbench, appbar, interactive colors */
+  /* workbench, appbar, interactive colors 
   --color-panel-queue: #fafafa;
   --color-panel-queue-highlight: #ececec;
   --color-workbench-tooltip: #333;
@@ -163,17 +178,21 @@
   --color-workbench-explain-node-link: #979797;
   --color-wb-explain-tooltip-border-top: #4287d6;
   --color-faded-white: rgba(255, 255, 255, 0.65);
+*/
 
-  /* data grid */
+  /* data grid 
   --color-master-row-border: #0266c2;
+*/
 
-  /* wizard */
+  /* wizard 
   --color-wizard-stepper: #2689e5;
   --color-wizard-line: #eeeeee;
   --color-wizard-active-step-border: #fdcd85;
+*/
 
-  /* accordion */
+  /* accordion 
   --color-accordion: #f8faff;
+  */
 }
 
 #root {

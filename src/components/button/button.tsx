@@ -16,7 +16,7 @@ export const Button: React.FC<ButtonProps> = ({
   label,
   ...props
 }) => {
-  const mode = primary ? 'bg-primary text-on-primary' : 'storybook-button--secondary';
+  const mode = primary ? 'bg-primary text-on-background' : 'storybook-button--secondary';
   return (
     <button
       type="button"
