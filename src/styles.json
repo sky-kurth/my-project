@@ -1,62 +1,136 @@
 {
-    "color": {
-        "background": {
-            " ": {
-                "$value": "#FFFFFF",
-                "$type": "color"
-            },
-            "2": {
-                "$value": "#F5F5F5",
-                "$type": "color"
-            }
+  "color": {
+    "background": {
+      "2": {
+        "$type": "color",
+        "$value": "#F5F5F5"
+      },
+      " ": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "on-background": {
+      " ": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "menu": {
+        "$type": "color",
+        "$value": "#f4f4f4"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#e6e8ef"
+      },
+      "app-bar": {
+        "$type": "color",
+        "$value": "#343434"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "icon-background": {
+        "$type": "color",
+        "$value": "#BDBDBD"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#e5e5e5"
+      },
+      "link": {
+        " ": {
+          "$type": "color",
+          "$value": "#0266c2"
         },
-        "on-background": {
-            " ": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "menu": {
-                "$value": "#f4f4f4",
-                "$type": "color"
-            },
-            "active": {
-                "$value": "#e6e8ef",
-                "$type": "color"
-            },
-            "app-bar": {
-                "$value": "#343434",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "icon-background": {
-                "$value": "#BDBDBD",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#e5e5e5",
-                "$type": "color"
-            },
-            "link": {
-                " ": {
-                    "$value": "#0266c2",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#004b90",
-                    "$type": "color"
-                }
-            },
-            "table-header-dark": {
-                "$value": "#444444",
-                "$type": "color"
-            },
-            "iq-insights": {
-                "$value": "#edf5ff",
-                "$type": "color"
-            }
+        "hover": {
+          "$type": "color",
+          "$value": "#004b90"
         }
+      },
+      "table-header-dark": {
+        "$type": "color",
+        "$value": "#444444"
+      },
+      "iq-insights": {
+        "$type": "color",
+        "$value": "#edf5ff"
+      }
     }
+  },
+  "color/color": {
+    "background": {
+      "2": {
+        "$type": "color",
+        "$value": "{White}"
+      },
+      " ": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "on-background": {
+      " ": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "menu": {
+        "$type": "color",
+        "$value": "#f4f4f4"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#e6e8ef"
+      },
+      "app-bar": {
+        "$type": "color",
+        "$value": "#343434"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "icon-background": {
+        "$type": "color",
+        "$value": "#bdbdbd"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#e5e5e5"
+      },
+      "link": {
+        " ": {
+          "$type": "color",
+          "$value": "#0266c2"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#004b90"
+        }
+      },
+      "table-header-dark": {
+        "$type": "color",
+        "$value": "#444444"
+      },
+      "iq-insights": {
+        "$type": "color",
+        "$value": "#edf5ff"
+      }
+    }
+  },
+  "Primitives/Mode 1": {
+    "White": {
+      "$type": "color",
+      "$value": "#ffffff"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color",
+      "color/color",
+      "Primitives/Mode 1"
+    ]
+  }
 }
