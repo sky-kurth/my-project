@@ -3,6 +3,7 @@
  */
 
 :root {
+  --color-overlay: #ededed;
   --color-background-2: #f5f5f5;
   --color-background: #ffffff;
   --color-on-background: #262626;

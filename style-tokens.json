@@ -1,5 +1,9 @@
 {
     "color": {
+        "overlay": {
+            "$value": "#ededed",
+            "$type": "color"
+        },
         "background": {
             " ": {
                 "$value": "#FFFFFF",
