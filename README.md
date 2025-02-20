@@ -32,6 +32,12 @@ To start project:
 ```
 npm run dev
 ```
+
+It's very ugly... but does the job as a test!
+
+<img width="311" alt="Screenshot 2025-02-20 at 11 49 38 AM" src="https://github.com/user-attachments/assets/2fc787bf-b8ce-4073-a8eb-46bf4ce3a8b3" />
+
+
 To try storybook:
 ```
 npm run storybook
