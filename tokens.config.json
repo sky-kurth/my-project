@@ -1,6 +1,6 @@
 {
     "source": [
-        "styles.json"
+        "style-tokens.json"
     ],
     "platforms": {
         "css": {
@@ -8,7 +8,7 @@
             "buildPath": "src/",
             "files": [
                 {
-                    "destination": "style-tokens.css",
+                    "destination": "style-variables.css",
                     "format": "css/variables"
                 }
             ]

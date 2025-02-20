@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 
-@import './style-tokens.css';
+@import './style-variables.css';
 
 /* COLORS */
 :root {
