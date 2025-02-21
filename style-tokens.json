@@ -5,7 +5,7 @@
             "$type": "color"
         },
         "background": {
-            " ": {
+            "@": {
                 "$value": "#FFFFFF",
                 "$type": "color"
             },
@@ -15,7 +15,7 @@
             }
         },
         "on-background": {
-            " ": {
+            "@": {
                 "$value": "#262626",
                 "$type": "color"
             },
@@ -44,7 +44,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#0266c2",
                     "$type": "color"
                 },
@@ -63,7 +63,7 @@
             }
         },
         "primary": {
-            " ": {
+            "@": {
                 "$value": "#0266c2",
                 "$type": "color"
             },
@@ -77,7 +77,7 @@
             }
         },
         "on-primary": {
-            " ": {
+            "@": {
                 "$value": "#fff",
                 "$type": "color"
             },
@@ -90,7 +90,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#fff",
                     "$type": "color"
                 },
@@ -101,7 +101,7 @@
             }
         },
         "secondary": {
-            " ": {
+            "@": {
                 "$value": "#fc9c0c",
                 "$type": "color"
             },
@@ -115,7 +115,7 @@
             }
         },
         "on-secondary": {
-            " ": {
+            "@": {
                 "$value": "#000",
                 "$type": "color"
             },
@@ -128,7 +128,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#000",
                     "$type": "color"
                 },
@@ -139,7 +139,7 @@
             }
         },
         "surface": {
-            " ": {
+            "@": {
                 "$value": "#f7faff",
                 "$type": "color"
             },
@@ -149,7 +149,7 @@
             }
         },
         "on-surface": {
-            " ": {
+            "@": {
                 "$value": "#262626",
                 "$type": "color"
             },
@@ -162,7 +162,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#0266c2",
                     "$type": "color"
                 },
@@ -177,7 +177,7 @@
             "$type": "color"
         },
         "on-information": {
-            " ": {
+            "@": {
                 "$value": "#262626",
                 "$type": "color"
             },
@@ -191,7 +191,7 @@
             },
             "link": {
                 "$type": "color",
-                " ": {
+                "@": {
                     "$value": "#0266c2",
                     "$type": "color"
                 },
@@ -206,7 +206,7 @@
             "$type": "color"
         },
         "on-success": {
-            " ": {
+            "@": {
                 "$value": "#262626",
                 "$type": "color"
             },
@@ -219,7 +219,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#262626",
                     "$type": "color"
                 },
@@ -240,7 +240,7 @@
             "$type": "color"
         },
         "on-warning": {
-            " ": {
+            "@": {
                 "$value": "#262626",
                 "$type": "color"
             },
@@ -253,7 +253,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#262626",
                     "$type": "color"
                 },
@@ -288,7 +288,7 @@
             "$type": "color"
         },
         "on-error": {
-            " ": {
+            "@": {
                 "$value": "#262626",
                 "$type": "color"
             },
@@ -301,7 +301,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#262626",
                     "$type": "color"
                 },
@@ -316,7 +316,7 @@
             "$type": "color"
         },
         "on-notice": {
-            " ": {
+            "@": {
                 "$value": "#262626",
                 "$type": "color"
             },
@@ -329,7 +329,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#262626",
                     "$type": "color"
                 },
@@ -340,7 +340,7 @@
             }
         },
         "danger": {
-            " ": {
+            "@": {
                 "$value": "#b00020",
                 "$type": "color"
             },
@@ -354,7 +354,7 @@
             }
         },
         "on-danger": {
-            " ": {
+            "@": {
                 "$value": "#fff",
                 "$type": "color"
             },
@@ -367,7 +367,7 @@
                 "$type": "color"
             },
             "link": {
-                " ": {
+                "@": {
                     "$value": "#fff",
                     "$type": "color"
                 },
@@ -396,7 +396,7 @@
             "$type": "color"
         },
         "on-inactive": {
-            " ": {
+            "@": {
                 "$value": "#4c4c4c",
                 "$type": "color"
             },
@@ -406,7 +406,7 @@
             }
         },
         "shadow": {
-            " ": {
+            "@": {
                 "$value": "rgba(0, 0, 0, 0.15)",
                 "$type": "color"
             },
@@ -513,7 +513,7 @@
         },
         "panel": {
             "queue": {
-                " ": {
+                "@": {
                     "$value": "#fafafa",
                     "$type": "color"
                 },
@@ -536,7 +536,7 @@
             },
             "explain": {
                 "node": {
-                    " ": {
+                    "@": {
                         "$value": "#bfe2ba",
                         "$type": "color"
                     },
