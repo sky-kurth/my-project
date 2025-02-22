@@ -1,607 +1,786 @@
 {
-    "color": {
-        "overlay": {
-            "$value": "#ededed",
-            "$type": "color"
-        },
-        "background": {
-            "@": {
-                "$value": "#FFFFFF",
-                "$type": "color"
-            },
-            "2": {
-                "$value": "#F5F5F5",
-                "$type": "color"
-            }
-        },
-        "on-background": {
-            "@": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "menu": {
-                "$value": "#f4f4f4",
-                "$type": "color"
-            },
-            "active": {
-                "$value": "#e6e8ef",
-                "$type": "color"
-            },
-            "app-bar": {
-                "$value": "#343434",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "icon-background": {
-                "$value": "#BDBDBD",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#e5e5e5",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#0266c2",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#004b90",
-                    "$type": "color"
-                }
-            },
-            "table-header-dark": {
-                "$value": "#444444",
-                "$type": "color"
-            },
-            "iq-insights": {
-                "$value": "#edf5ff",
-                "$type": "color"
-            }
-        },
-        "primary": {
-            "@": {
-                "$value": "#0266c2",
-                "$type": "color"
-            },
-            "hover": {
-                "$value": "#004b90",
-                "$type": "color"
-            },
-            "active": {
-                "$value": "#003b73",
-                "$type": "color"
-            }
-        },
-        "on-primary": {
-            "@": {
-                "$value": "#fff",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#fff",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#fff",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#fff",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#fff",
-                    "$type": "color"
-                }
-            }
-        },
-        "secondary": {
-            "@": {
-                "$value": "#fc9c0c",
-                "$type": "color"
-            },
-            "hover": {
-                "$value": "#f4753b",
-                "$type": "color"
-            },
-            "active": {
-                "$value": "#f4753b",
-                "$type": "color"
-            }
-        },
-        "on-secondary": {
-            "@": {
-                "$value": "#000",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#000",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#000",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#000",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#000",
-                    "$type": "color"
-                }
-            }
-        },
-        "surface": {
-            "@": {
-                "$value": "#f7faff",
-                "$type": "color"
-            },
-            "active": {
-                "$value": "#9ac2e7",
-                "$type": "color"
-            }
-        },
-        "on-surface": {
-            "@": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#0266c2",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#0266c2",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#0266c2",
-                    "$type": "color"
-                }
-            }
-        },
-        "information": {
-            "$value": "#d9e8f6",
-            "$type": "color"
-        },
-        "on-information": {
-            "@": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#0266c2",
-                "$type": "color"
-            },
-            "link": {
-                "$type": "color",
-                "@": {
-                    "$value": "#0266c2",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#0266c2",
-                    "$type": "color"
-                }
-            }
-        },
-        "success": {
-            "$value": "#bde7a6",
-            "$type": "color"
-        },
-        "on-success": {
-            "@": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#2e7d32",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#262626",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#262626",
-                    "$type": "color"
-                }
-            },
-            "alter": {
-                "decoration": {
-                    "$value": "#4dac5f",
-                    "$type": "color"
-                }
-            }
-        },
-        "warning": {
-            "$value": "#fbe4a8",
-            "$type": "color"
-        },
-        "on-warning": {
-            "@": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#fcab30",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#262626",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#262626",
-                    "$type": "color"
-                }
-            },
-            "border": {
-                "$value": "#cb7e0a",
-                "$type": "color"
-            },
-            "pane": {
-                "$value": "#fff6e7",
-                "$type": "color"
-            },
-            "alter": {
-                "decoration": {
-                    "$value": "#cb7e0a",
-                    "$type": "color"
-                }
-            },
-            "secondary": {
-                "decoration": {
-                    "$value": "#bea103",
-                    "$type": "color"
-                }
-            }
-        },
-        "error": {
-            "$value": "#f2a4a2",
-            "$type": "color"
-        },
-        "on-error": {
-            "@": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#c62828",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#262626",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#262626",
-                    "$type": "color"
-                }
-            }
-        },
-        "notice": {
-            "$value": "#e5e5e5",
-            "$type": "color"
-        },
-        "on-notice": {
-            "@": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#737373",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#262626",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#262626",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#262626",
-                    "$type": "color"
-                }
-            }
-        },
-        "danger": {
-            "@": {
-                "$value": "#b00020",
-                "$type": "color"
-            },
-            "hover": {
-                "$value": "#970007",
-                "$type": "color"
-            },
-            "active": {
-                "$value": "#7d0000",
-                "$type": "color"
-            }
-        },
-        "on-danger": {
-            "@": {
-                "$value": "#fff",
-                "$type": "color"
-            },
-            "alternate": {
-                "$value": "#fff",
-                "$type": "color"
-            },
-            "decoration": {
-                "$value": "#fff",
-                "$type": "color"
-            },
-            "link": {
-                "@": {
-                    "$value": "#fff",
-                    "$type": "color"
-                },
-                "hover": {
-                    "$value": "#fff",
-                    "$type": "color"
-                }
-            },
-            "border": {
-                "$value": "#ea2328",
-                "$type": "color"
-            },
-            "pane": {
-                "$value": "#fde9ea",
-                "$type": "color"
-            },
-            "alter": {
-                "decoration": {
-                    "$value": "#ea2328",
-                    "$type": "color"
-                }
-            }
-        },
-        "inactive": {
-            "$value": "#e5e5e5",
-            "$type": "color"
-        },
-        "on-inactive": {
-            "@": {
-                "$value": "#4c4c4c",
-                "$type": "color"
-            },
-            "light": {
-                "$value": "#f5f5f5",
-                "$type": "color"
-            }
-        },
-        "shadow": {
-            "@": {
-                "$value": "rgba(0, 0, 0, 0.15)",
-                "$type": "color"
-            },
-            "variant": {
-                "$value": "rgba(155, 200, 243, 0.5)",
-                "$type": "color"
-            }
+  "color": {
+    "overlay": {
+      "$type": "color",
+      "$value": "#ededed"
+    },
+    "background": {
+      "2": {
+        "$type": "color",
+        "$value": "#F5F5F5"
+      },
+      "@": {
+        "$type": "color",
+        "$value": "{neutral.white}"
+      }
+    },
+    "on-background": {
+      "@": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "menu": {
+        "$type": "color",
+        "$value": "#f4f4f4"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#e6e8ef"
+      },
+      "app-bar": {
+        "$type": "color",
+        "$value": "#343434"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "icon-background": {
+        "$type": "color",
+        "$value": "#BDBDBD"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#e5e5e5"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#0266c2"
         },
         "hover": {
-            "button": {
-                "$value": "#d0d5e6",
-                "$type": "color"
-            }
+          "$type": "color",
+          "$value": "#004b90"
+        }
+      },
+      "table-header-dark": {
+        "$type": "color",
+        "$value": "#444444"
+      },
+      "iq-insights": {
+        "$type": "color",
+        "$value": "#edf5ff"
+      }
+    },
+    "primary": {
+      "@": {
+        "$type": "color",
+        "$value": "#0266c2"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#004b90"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#003b73"
+      }
+    },
+    "on-primary": {
+      "@": {
+        "$type": "color",
+        "$value": "#fff"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#fff"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#fff"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#fff"
         },
-        "focussed": {
-            "btn": {
-                "$value": "#bfc7e1",
-                "$type": "color"
-            }
+        "hover": {
+          "$type": "color",
+          "$value": "#fff"
+        }
+      }
+    },
+    "secondary": {
+      "@": {
+        "$type": "color",
+        "$value": "#fc9c0c"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#f4753b"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#f4753b"
+      }
+    },
+    "on-secondary": {
+      "@": {
+        "$type": "color",
+        "$value": "#000"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#000"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#000"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#000"
         },
-        "disabled": {
-            "text": {
-                "$value": "#bfbfbf",
-                "$type": "color"
-            }
+        "hover": {
+          "$type": "color",
+          "$value": "#000"
+        }
+      }
+    },
+    "surface": {
+      "@": {
+        "$type": "color",
+        "$value": "#f7faff"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#9ac2e7"
+      }
+    },
+    "on-surface": {
+      "@": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#0266c2"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#0266c2"
         },
-        "chart": {
+        "hover": {
+          "$type": "color",
+          "$value": "#0266c2"
+        }
+      }
+    },
+    "information": {
+      "$type": "color",
+      "$value": "#d9e8f6"
+    },
+    "on-information": {
+      "@": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#0266c2"
+      },
+      "link": {
+        "$type": "color",
+        "@": {
+          "$value": "#0266c2"
+        },
+        "hover": {
+          "$value": "#0266c2"
+        }
+      }
+    },
+    "success": {
+      "$type": "color",
+      "$value": "#bde7a6"
+    },
+    "on-success": {
+      "@": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#2e7d32"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#262626"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#262626"
+        }
+      },
+      "alter": {
+        "decoration": {
+          "$type": "color",
+          "$value": "#4dac5f"
+        }
+      }
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "#fbe4a8"
+    },
+    "on-warning": {
+      "@": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#fcab30"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#262626"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#262626"
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "#cb7e0a"
+      },
+      "pane": {
+        "$type": "color",
+        "$value": "#fff6e7"
+      },
+      "alter": {
+        "decoration": {
+          "$type": "color",
+          "$value": "#cb7e0a"
+        }
+      },
+      "secondary": {
+        "decoration": {
+          "$type": "color",
+          "$value": "#bea103"
+        }
+      }
+    },
+    "error": {
+      "$type": "color",
+      "$value": "#f2a4a2"
+    },
+    "on-error": {
+      "@": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#c62828"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#262626"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#262626"
+        }
+      }
+    },
+    "notice": {
+      "$type": "color",
+      "$value": "#e5e5e5"
+    },
+    "on-notice": {
+      "@": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#262626"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#262626"
+        }
+      }
+    },
+    "danger": {
+      "@": {
+        "$type": "color",
+        "$value": "#b00020"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#970007"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#7d0000"
+      }
+    },
+    "on-danger": {
+      "@": {
+        "$type": "color",
+        "$value": "#fff"
+      },
+      "alternate": {
+        "$type": "color",
+        "$value": "#fff"
+      },
+      "decoration": {
+        "$type": "color",
+        "$value": "#fff"
+      },
+      "link": {
+        "@": {
+          "$type": "color",
+          "$value": "#fff"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#fff"
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "#ea2328"
+      },
+      "pane": {
+        "$type": "color",
+        "$value": "#fde9ea"
+      },
+      "alter": {
+        "decoration": {
+          "$type": "color",
+          "$value": "#ea2328"
+        }
+      }
+    },
+    "inactive": {
+      "$type": "color",
+      "$value": "#e5e5e5"
+    },
+    "on-inactive": {
+      "@": {
+        "$type": "color",
+        "$value": "#4c4c4c"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#f5f5f5"
+      }
+    },
+    "shadow": {
+      "@": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.15)"
+      },
+      "variant": {
+        "$type": "color",
+        "$value": "rgba(155, 200, 243, 0.5)"
+      }
+    },
+    "hover": {
+      "button": {
+        "$type": "color",
+        "$value": "#d0d5e6"
+      }
+    },
+    "focussed": {
+      "btn": {
+        "$type": "color",
+        "$value": "#bfc7e1"
+      }
+    },
+    "disabled": {
+      "text": {
+        "$type": "color",
+        "$value": "#bfbfbf"
+      }
+    },
+    "chart": {
+      "1": {
+        "$type": "color",
+        "$value": "#0266c2"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "#4dac5f"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "#fc9c0c"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "#013666"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#367842"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "#cc7e0a"
+      },
+      "7": {
+        "$type": "color",
+        "$value": "#9ac2e7"
+      },
+      "8": {
+        "$type": "color",
+        "$value": "#9dfaaf"
+      },
+      "9": {
+        "$type": "color",
+        "$value": "#fed79e"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#6aadbd"
+      },
+      "11": {
+        "$type": "color",
+        "$value": "#936abd"
+      }
+    },
+    "brand": {
+      "primary": {
+        "$type": "color",
+        "$value": "#ed2226"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "#fff0db"
+      }
+    },
+    "appbar": {
+      "bg": {
+        "$type": "color",
+        "$value": "#202124"
+      }
+    },
+    "global": {
+      "search": {
+        "bg": {
+          "$type": "color",
+          "$value": "#1d1d1d"
+        }
+      }
+    },
+    "panel": {
+      "queue": {
+        "@": {
+          "$type": "color",
+          "$value": "#fafafa"
+        },
+        "highlight": {
+          "$type": "color",
+          "$value": "#ececec"
+        }
+      }
+    },
+    "workbench": {
+      "tooltip": {
+        "$type": "color",
+        "$value": "#333"
+      },
+      "plan": {
+        "orient": {
+          "$type": "color",
+          "$value": "#a1a1a1"
+        }
+      },
+      "explain": {
+        "node": {
+          "@": {
+            "$type": "color",
+            "$value": "#bfe2ba"
+          },
+          "expensive": {
             "1": {
-                "$value": "#0266c2",
-                "$type": "color"
+              "$type": "color",
+              "$value": "#f9ca7b"
             },
             "2": {
-                "$value": "#4dac5f",
-                "$type": "color"
+              "$type": "color",
+              "$value": "#fbdba7"
             },
             "3": {
-                "$value": "#fc9c0c",
-                "$type": "color"
-            },
-            "4": {
-                "$value": "#013666",
-                "$type": "color"
-            },
-            "5": {
-                "$value": "#367842",
-                "$type": "color"
-            },
-            "6": {
-                "$value": "#cc7e0a",
-                "$type": "color"
-            },
-            "7": {
-                "$value": "#9ac2e7",
-                "$type": "color"
-            },
-            "8": {
-                "$value": "#9dfaaf",
-                "$type": "color"
-            },
-            "9": {
-                "$value": "#fed79e",
-                "$type": "color"
-            },
-            "10": {
-                "$value": "#6aadbd",
-                "$type": "color"
-            },
-            "11": {
-                "$value": "#936abd",
-                "$type": "color"
+              "$type": "color",
+              "$value": "#fdedd3"
             }
-        },
-        "brand": {
-            "primary": {
-                "$value": "#ed2226",
-                "$type": "color"
-            },
-            "secondary": {
-                "$value": "#000000",
-                "$type": "color"
-            },
-            "tertiary": {
-                "$value": "#ffffff",
-                "$type": "color"
-            },
-            "bg": {
-                "$value": "#fff0db",
-                "$type": "color"
-            }
-        },
-        "appbar": {
-            "bg": {
-                "$value": "#202124",
-                "$type": "color"
-            }
-        },
-        "global": {
-            "search": {
-                "bg": {
-                    "$value": "#1d1d1d",
-                    "$type": "color"
-                }
-            }
-        },
-        "panel": {
-            "queue": {
-                "@": {
-                    "$value": "#fafafa",
-                    "$type": "color"
-                },
-                "highlight": {
-                    "$value": "#ececec",
-                    "$type": "color"
-                }
-            }
-        },
-        "workbench": {
-            "tooltip": {
-                "$value": "#333",
-                "$type": "color"
-            },
-            "plan": {
-                "orient": {
-                    "$value": "#a1a1a1",
-                    "$type": "color"
-                }
-            },
-            "explain": {
-                "node": {
-                    "@": {
-                        "$value": "#bfe2ba",
-                        "$type": "color"
-                    },
-                    "expensive": {
-                        "1": {
-                            "$value": "#f9ca7b",
-                            "$type": "color"
-                        },
-                        "2": {
-                            "$value": "#fbdba7",
-                            "$type": "color"
-                        },
-                        "3": {
-                            "$value": "#fdedd3",
-                            "$type": "color"
-                        }
-                    },
-                    "hover": {
-                        "$value": "#b3cfef",
-                        "$type": "color"
-                    },
-                    "link": {
-                        "$value": "#979797",
-                        "$type": "color"
-                    }
-                }
-            }
-        },
-        "wb-explain-tooltip-border-top": {
-            "$value": "#4287d6",
-            "$type": "color"
-        },
-        "faded-white": {
-            "$value": "rgba(255, 255, 255, 0.65)",
-            "$type": "color"
-        },
-        "master": {
-            "row": {
-                "border": {
-                    "$value": "#0266c2",
-                    "$type": "color"
-                }
-            }
-        },
-        "wizard": {
-            "stepper": {
-                "$value": "#2689e5",
-                "$type": "color"
-            },
-            "line": {
-                "$value": "#eeeeee",
-                "$type": "color"
-            },
-            "active": {
-                "step": {
-                    "border": {
-                        "$value": "#fdcd85",
-                        "$type": "color"
-                    }
-                }
-            }
-        },
-        "accordion": {
-            "$value": "#f8faff",
-            "$type": "color"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "#b3cfef"
+          },
+          "link": {
+            "$type": "color",
+            "$value": "#979797"
+          }
         }
+      }
+    },
+    "wb-explain-tooltip-border-top": {
+      "$type": "color",
+      "$value": "#4287d6"
+    },
+    "faded-white": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.65)"
+    },
+    "master": {
+      "row": {
+        "border": {
+          "$type": "color",
+          "$value": "#0266c2"
+        }
+      }
+    },
+    "wizard": {
+      "stepper": {
+        "$type": "color",
+        "$value": "#2689e5"
+      },
+      "line": {
+        "$type": "color",
+        "$value": "#eeeeee"
+      },
+      "active": {
+        "step": {
+          "border": {
+            "$type": "color",
+            "$value": "#fdcd85"
+          }
+        }
+      }
+    },
+    "accordion": {
+      "$type": "color",
+      "$value": "#f8faff"
     }
+  },
+  "primitives": {
+    "neutral": {
+      "10": {
+        "$type": "color",
+        "$value": "#e5e5e5"
+      },
+      "25": {
+        "$type": "color",
+        "$value": "#bfbfbf"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#999999"
+      },
+      "55": {
+        "$type": "color",
+        "$value": "#737373"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#4d4d4d"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#333333"
+      },
+      "85": {
+        "$type": "color",
+        "$value": "#262626"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#1d1d1d"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#f5f5f5"
+      }
+    },
+    "blue": {
+      "base": {
+        "$type": "color",
+        "$value": "#0266c2"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#004b90"
+      },
+      "darkest": {
+        "$type": "color",
+        "$value": "#202124"
+      },
+      "darker": {
+        "$type": "color",
+        "$value": "#013666"
+      },
+      "mid": {
+        "$type": "color",
+        "$value": "#9ac2e7"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#d9e8f6"
+      },
+      "lightest": {
+        "$type": "color",
+        "$value": "#f7faff"
+      },
+      "lighter": {
+        "$type": "color",
+        "$value": "#edf5ff"
+      }
+    },
+    "red": {
+      "base": {
+        "$type": "color",
+        "$value": "#ea2328"
+      },
+      "darkest": {
+        "$type": "color",
+        "$value": "#7d0000"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#f2a4a2"
+      },
+      "lighter": {
+        "$type": "color",
+        "$value": "#fde9ea"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#b00020"
+      },
+      "darker": {
+        "$type": "color",
+        "$value": "#970007"
+      }
+    },
+    "green": {
+      "base": {
+        "$type": "color",
+        "$value": "#2e7d32"
+      },
+      "mid": {
+        "$type": "color",
+        "$value": "#4dac5f"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#bde7a6"
+      },
+      "saturated": {
+        "$type": "color",
+        "$value": "#9dfaaf"
+      }
+    },
+    "teal": {
+      "base": {
+        "$type": "color",
+        "$value": "#6aadbd"
+      }
+    },
+    "yellow": {
+      "light": {
+        "$type": "color",
+        "$value": "#fbe4a8"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#bea103"
+      }
+    },
+    "orange": {
+      "brand": {
+        "$type": "color",
+        "$value": "#fc9c0c"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#f4753b"
+      },
+      "desaturated": {
+        "$type": "color",
+        "$value": "#cb7e0a"
+      },
+      "peach": {
+        "$type": "color",
+        "$value": "#fff0db"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#fed79e"
+      }
+    },
+    "purple": {
+      "base": {
+        "$type": "color",
+        "$value": "#936abd"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#bfc7e1"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color",
+      "primitives"
+    ]
+  }
 }
